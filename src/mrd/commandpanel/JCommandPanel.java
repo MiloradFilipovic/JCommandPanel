@@ -124,7 +124,11 @@ currentLine.addKeyListener(new KeyListener() {
 				if(arg0.getKeyCode() == KeyEvent.VK_ENTER) {
 					if(!currentLine.getText().equals("")) {
 						previousLines.append(">> " + currentLine.getText() + "\n");
-						previousLines.append(parser.parseCommand(currentLine.getText()) + "\n");
+						if(parser != null) {
+							previousLines.append(parser.parseCommand(currentLine.getText()) + "\n");
+						}else {
+							previousLines.append("[ERROR] Parser class not found!\n");
+						}
 						previousLines.setCaretPosition(previousLines.getDocument().getLength());
 						listory.add(currentLine.getText());
 						commandInex = listory.size();
