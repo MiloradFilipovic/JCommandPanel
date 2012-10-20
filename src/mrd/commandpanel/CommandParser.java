@@ -9,7 +9,7 @@ public interface CommandParser {
 
 	/**
 	 * Method which receives textual command from command panel,
-	 * pareses it, and returns application output which will be displayed to user
+	 * parses it, and returns application output which will be displayed to user
 	 * @param command
 	 * @return text response which will be displayed to user
 	 */
