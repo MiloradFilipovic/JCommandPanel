@@ -5,7 +5,7 @@ Java GUI component whitch simulates console behaviour
 
 Features:
 
-- allows simple GUI for typing textual commands and displaying custom application output
+- provides simple GUI for typing textual commands and displaying custom application output
 
 - customizable look
 
