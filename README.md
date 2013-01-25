@@ -1,7 +1,7 @@
 JCommandPanel
 =============
 
-Java GUI component whitch simulates console behaviour
+Java GUI component which  simulates console behaviour
 
 Features:
 
