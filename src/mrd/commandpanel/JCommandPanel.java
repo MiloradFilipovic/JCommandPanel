@@ -97,7 +97,6 @@ public class JCommandPanel extends JPanel {
 		//when user clicks on textArea, focus is transfered to textField
 		previousLines.addMouseListener(new MouseListener() {
 			public void mouseReleased(MouseEvent arg0) {
-				currentLine.requestFocusInWindow();
 			}
 			public void mousePressed(MouseEvent arg0) {
 			}
@@ -106,6 +105,7 @@ public class JCommandPanel extends JPanel {
 			public void mouseEntered(MouseEvent arg0) {
 			}
 			public void mouseClicked(MouseEvent arg0) {
+				currentLine.requestFocusInWindow();
 			}
 		});
 
