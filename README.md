@@ -20,5 +20,5 @@ Java GUI component which  simulates console behaviour
 
 ## Peview:
 
-![Default look] (https://dl.dropboxusercontent.com/u/24945700/slike/command1.png)
+![Default look] (https://dl.dropboxusercontent.com/u/24945700/slike/command1)
 ![Black and green] (https://dl.dropboxusercontent.com/u/24945700/slike/command2.png)
