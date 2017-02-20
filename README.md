@@ -18,7 +18,7 @@ Java GUI component which  simulates console behaviour
 - Put JCommandPanel instance on your application frame and assign your parser instance to command panel
 
 
-## Peview:
+## Preview:
 
 ![Default look] (https://dl.dropboxusercontent.com/u/24945700/slike/command1.png)
 ![Black and green] (https://dl.dropboxusercontent.com/u/24945700/slike/command2.png)
